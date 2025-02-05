@@ -2,11 +2,11 @@
 
 # Database Sync Tool
 
-A web-based tool to synchronize data between MySQL and MariaDB servers. Features automatic daily synchronization at midnight and manual sync capability through a web interface.
+A web-based tool to synchronize data between MySQL to another MySQL based servers. Features automatic daily synchronization at midnight and manual sync capability through a web interface.
 
 ## Concept
 - The tool is designed to be used as a service to sync the database between the staging and development environment.
-- by remmove all the tables on the target database, and re-import the data from the source database
+- by remove all the tables on the target database, and re-import the data from the source database
 - this will make the migration flow more efficient and easier to investigate the migration flow.
 
 ## Features
