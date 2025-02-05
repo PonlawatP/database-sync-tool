@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/b8e452f5-239b-4313-975c-0319d54af7e4)
+
 # Database Sync Tool
 
 A web-based tool to synchronize data between MySQL and MariaDB servers. Features automatic daily synchronization at midnight and manual sync capability through a web interface.
