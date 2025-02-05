@@ -1,0 +1,7 @@
+/code/.venv
+/code/__pycache__
+/code/config/*
+
+/config/config.ini
+/__pycache__
+/code/sync/__pycache__

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Sync Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Database Sync Dashboard</h1>
+        
+        <div class="status-card">
+            <h2>Sync Status</h2>
+            <p>Status: <span id="sync-status">Not running</span></p>
+            <p>Last Sync: <span id="last-sync">Never</span></p>
+            <p>Current Operation: <span id="current-operation">None</span></p>
+            <div style="background: #e0e0e0; border-radius: 4px; margin: 10px 0; position: relative;">
+                <div id="progress-bar" style="width: 0%; height: 100%; background: #4CAF50; height: 25px; border-radius: 4px;">
+                </div>
+                <span id="progress-text" style="position: absolute; top: 0; left: 0; width: 100%; text-align: center;">0%</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-sync" class="button primary">Start Sync</button>
+            <button id="stop-sync" class="button danger" disabled>Stop Sync</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html> 
